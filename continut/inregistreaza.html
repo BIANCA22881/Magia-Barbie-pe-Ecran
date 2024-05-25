@@ -1,0 +1,65 @@
+
+<br/>
+<h4 style = "margin-left: 50px;">Pentru a vă face cont, vă rog completați cele obligatorii (cu steluță).</h4>
+<div id = "picture_inregistrare">
+    <img src = "imagini/BarbieAndKen.jpg" alt = "Barbie and Ken" width="450" style="border-style: solid;
+    border-color: #21150c;"/>
+</div>
+<div id = "fieldset">
+    <fieldset>
+        <legend>Informații generale</legend>
+        <form id = "my_form">
+            <label for="nume_utilizator" >Nume utilizator*:</label><br />
+            <input id = "nume_utilizator" type="text" required/><br />
+            <label for="email">Email*:</label><br />
+            <input id = "email" type="email" required/><br/>
+            <label for="parola_cont">Parola*:</label><br />
+            <input id = "parola_cont" type="password" required/><br/>
+            <label for="nume">Nume*:</label><br />
+            <input id = "nume" type="text" required/><br />
+            <label for="prenume">Prenume*:</label><br />
+            <input id = "prenume" type="text" required/><br />
+            <label for ="telefon">Telefon:</label><br/>
+            <input id = "telefon" type = "tel"/><br/>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Informații personale</legend>
+        <form>
+            <label for="gen">Sexul:</label><br/>
+            <select id = "gen" name ="gen">
+                <option class = "genzs" value = "Masculin">Masculin</option>
+                <option class = "genzs" value = "Feminin">Feminin</option>
+                <option class = "genzs" value = "Nu doresc sa mentionez">Nu doresc să menționez</option>
+            </select>
+            <br/>
+            <label for="favorite_food">Mâncarea favorită:</label>
+            <br/>
+            <input list="favorite_foods" name="favorite_food" id="favorite_food">
+            <datalist id="favorite_foods">
+                <option value="Pizza">
+                <option value="Pasta">
+                <option value="Sushi">
+                <option value="Sarmale">
+                <option value="Fast-Food">
+            </datalist>
+            <br/>
+            <label for ="color">Culoarea preferată:</label><br/>
+            <input id = "color" type = "color" value = "#FF007F"/><br/>
+            <label for = "data-nasterii">Data nașterii*:</label><br/>
+            <input id = "data-nasterii" type = "date" required/><br/>
+            <label for = "ora_nasterii">Ora Nașterii:</label><br/>
+            <input id = "ora_nasterii" type="time"/><br/>
+            <label for = "varsta">Vârsta*:</label><br/>
+            <input id = "varsta" type ="range" min = "18" max ="50" required/>
+            <label id="age"></label>
+            <br/>
+            <label for="personalPage">Pagina Personală:</label><br/>
+            <input id = "personalPage" type = "url" placeholder="https://example.com" /><br/>
+            <label for = "descrption">Descriere:</label><br />
+            <textarea id = "descrption" cols="20" rows = 5></textarea><br />
+        </form>
+    </fieldset>
+    <br/>
+    <button id = "registerButton" type = "button" disabled = "disabled" onclick="inregistreaza()">Înregistrează</button>
+</div>

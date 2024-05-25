@@ -1,0 +1,32 @@
+{
+    "utilizatori": [
+        {
+            "utilizator": "test",
+            "parola": "test"
+        },
+        {
+            "utilizator": "bia",
+            "parola": "bia"
+        },
+        {
+            "utilizator": "vio",
+            "parola": "vio"
+        },
+        {
+            "utilizator": "vio",
+            "parola": "vio"
+        },
+        {
+            "utilizator": "bianca",
+            "parola": "bianca"
+        },
+        {
+            "utilizator": "bianca",
+            "parola": "bianca"
+        },
+        {
+            "utilizator": "alina_todi",
+            "parola": "alexandru22"
+        }
+    ]
+}

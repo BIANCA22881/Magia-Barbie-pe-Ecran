@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+<persoane id = "allPeople">
+    <persoana id="1">
+        <nume>Ionescu</nume>
+        <prenume>Maria</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Merilor</strada>
+            <numar>23</numar>
+            <localitate>Miroslava</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV_EUROPASS>
+            <adresa_mail>MariathaIon5623@student.tuiasi.ro</adresa_mail>
+            <numar_telefon>0725496628</numar_telefon>
+            <ani_experienta>2</ani_experienta>
+        </CV_EUROPASS>
+    </persoana>
+    <persoana id="2">
+        <nume>Marin</nume>
+        <prenume>Iuliana</prenume>
+        <varsta>42</varsta>
+        <adresa>
+            <strada>Florilor</strada>
+            <numar>12</numar>
+            <localitate>Ciurea</localitate>
+            <judet>Suceava</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV_EUROPASS>
+            <adresa_mail>MIuliana235@yahoo.com</adresa_mail>
+            <numar_telefon>0726483762</numar_telefon>
+            <ani_experienta>15</ani_experienta>
+        </CV_EUROPASS>
+    </persoana>
+    <persoana id="3">
+        <nume>Smith</nume>
+        <prenume>Anne</prenume>
+        <varsta>31</varsta>
+        <adresa>
+            <strada>Cornelia</strada>
+            <numar>45321</numar>
+            <localitate>Los Angeles</localitate>
+            <judet>California</judet>
+            <tara>USA</tara>
+        </adresa>
+        <CV_EUROPASS>
+            <adresa_mail>anneSmith435@gmail.com</adresa_mail>
+            <numar_telefon>624-534-6274</numar_telefon>
+            <ani_experienta>10</ani_experienta>
+        </CV_EUROPASS>
+    </persoana>
+</persoane>

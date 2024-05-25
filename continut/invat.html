@@ -1,0 +1,94 @@
+
+<h3>Sectiunea 1</h3>
+<div class = "section1">
+    <div id = "dateAndTime" onload="dataSiOra()"></div>
+    <br/>
+    <div id = "adresaURL" onload="adresaUrl()"></div>
+    <br/>
+    <div id = "locatieCurenta" onload="currentLocation()"></div>
+    <br/>
+    <div id = "broserCurent" onload="currentBrowser()"></div>
+    <br/>
+    <div id = "OSCurent" onload="showOS()"></div>
+</div>
+<h3>Sectiunea 2</h3>
+<div class="section2">
+  <div id = "canvas-ul">
+    <canvas id = "MyCanvas" width="400" height="300"></canvas>
+  </div>
+  <div id = "buttons">
+    <label for="BorderColor">BorderColor: </label>
+    <input type="color" id="BorderColor" value="black">
+    <label for="FillColor">FillColor: </label>
+    <input type="color" id="FillColor" value="#cc10a0">
+    <button id = "ClearButton" onclick="clearCanvas()">Push to clean</button><!------------------>
+  </div>
+</div>
+<h3>Sectiunea 3</h3>
+<div class="section3">
+  <div id = "tabelul">
+    <table id = "this_table">
+      <tr>
+          <th>Element</th>
+          <th>Descriere</th>
+      </tr>
+      <tr>
+          <td class ="faceParte">Nume</td>
+          <td class ="faceParte">Barbie</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Lansata in</td>
+          <td class ="faceParte">9 martie 1959</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Creator</td>
+          <td class ="faceParte">Ruth Handler și Elliot Handler</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Fabricant</td>
+          <td class ="faceParte">Mattel, Inc.</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Descriere</td>
+          <td class ="faceParte">O păpușă de modă feminină cu numeroase accesorii și îmbrăcăminte</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Popularitate</td>
+          <td class ="faceParte">Una dintre cele mai vândute linii de păpuși din istorie</td>
+      </tr>
+      <tr>
+          <td class ="faceParte">Variații</td>
+          <td class ="faceParte">Numeroase modele și ediții limitate</td>
+      </tr>
+      <tr>
+        <td class ="faceParte">Inspirată din</td>
+        <td class ="faceParte">Bild Lilli, o păpușă germană</td>
+      </tr>
+      <tr>
+        <td class ="faceParte">Impact cultural</td>
+        <td class ="faceParte">A devenit un simbol al modei și a influențat generații de copii și adulți</td>
+      </tr><tr>
+        <td class ="faceParte">Serii de filme</td>
+        <td class ="faceParte">Seria de filme "Barbie" cu peste 30 de filme animate</td>
+      </tr><tr>
+        <td class ="faceParte">Jocuri video</td>
+        <td class ="faceParte">Diverse jocuri video cu Barbie în rol principal</td>
+      </tr><tr>
+        <td class ="faceParte">Accesorii celebre</td>
+        <td class ="faceParte">Mașini, case de păpuși, haine și accesorii diversificate</td>
+      </tr><tr>
+        <td class ="faceParte">Mesajul de bază</td>
+        <td class ="faceParte">Încurajarea creativității și explorarea diverselor roluri</td>
+      </tr>
+  </table>
+  
+  </div>
+  <div id = "butoaneTabel">
+    <label for="culoareFundalTabel">Culoare fundal: </label><br />
+    <input id = "culoareFundalTabel" type="color" value="#cc10a0" onchange="changeColor()"/><br />
+    <label for="pozitiaAdaugare">La ce pozitie doriti sa adaugati: </label><br />
+    <input id = "pozitiaAdaugare" type="text"/><br /><br />
+    <button id = "RowButton" onclick="addRow()">Adauga linie</button><br/><br />
+    <button id = "ColumnButton" onclick="addColumn()">Adauga coloana</button>                     
+  </div>
+</div>

@@ -1,0 +1,223 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    overflow: auto; /* Va permite meniului să fie scrollabil pe ecrane mici */
+}
+nav a {
+    text-decoration: none;
+    background-color: #f9dce7;
+    color :#2b0322;
+    padding: 10px 15px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    border-style: double;
+}
+hr{
+    clear:both;
+}
+footer img{
+    float: right;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+}
+footer p{
+    color: #3b042e;
+    vertical-align: bottom;
+    padding-top: 15px;
+}
+header img{
+    float:left;
+    vertical-align: top;
+    padding :5px;    
+}
+header h1{
+    text-align: center;
+    vertical-align: top;
+    padding : 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+svg{
+    border-style: solid;
+    border-width: thick;
+    border-color: #21150c;
+}
+.imglogo {
+    float:left;
+}
+.startpara {
+    margin-left: 200px;
+}
+.ruthPicture {
+    float:left;
+}
+.barbieHistory {
+    margin-left: 300px;
+}
+table{
+    border-style:solid ;
+    border-color: black;
+    background-color:#edb0e1;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+td{
+    border-style:solid ;
+    border-width: thin;
+    background-color: #f2daed;
+}
+a{
+    color: #cc10a0;
+}
+.textV1{
+    margin-left: 750px;
+    margin-right: 350px;
+}
+.textV2{
+    margin-left: 750px;
+    margin-right: 350px;
+}
+.video1{
+    float: left;
+}
+.video2{
+    float: left;
+}
+img#ruth_picture{
+    border-style: solid;
+    border-color: #21150c;
+}
+fieldset{
+    margin-left: 20px;
+    margin-right: 650px;
+    width: 30%;
+}
+div#picture_inregistrare{
+    margin-top: 15px;
+    width: 50%;
+    float: right;
+}
+nav a:hover{
+    color:#cc10a0;
+    border-color: #cc10a0;
+    cursor: grab;
+}
+a:hover{
+    cursor: grab;
+}
+@media print{
+    nav,nav a,hr.header{
+        display: none;
+    }
+}
+h4#link_site{
+    color: white;
+}
+p#intro::first-letter{
+    color: #cc10a0;
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset{
+    color: #3b042e;
+    background-color: #f9dce7;
+}
+fieldset input{
+    background-color: #f2b2ca;
+}
+fieldset textarea{
+    background-color: #f2b2ca;
+}
+option{
+    background-color: #f2b2ca;
+}
+select#gen{
+    background-color: #f2b2ca;
+}
+option.genzs{
+    background-color: #f2b2ca;
+}
+h3#draw{
+    color : #cc10a0;
+    font-weight: bold;
+}
+.section1{
+    margin-left: 20px;
+    background-color:aliceblue;
+    border-style: solid;
+    border-color: #cc10a0;
+}
+.section2{
+    margin-left: 20px;
+    background-color:aliceblue;
+    border-style: solid;
+    border-color: #cc10a0;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.canvas-ul,.buttons {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.section3 {
+    margin-left: 20px;
+    display: flex;
+    background-color:aliceblue;
+    border-style: solid;
+    border-color: #cc10a0;
+}
+.tabelul,.butoaneTabel {
+    flex: 1;
+    border-style: dotted;
+}  
+.tabelul{
+    margin-right: 20px;
+}
+div{
+    padding: 5px;
+}
+canvas{
+    border-style: dashed;
+    border-color: black;
+}
+#ClearButton{
+    margin-left: 5px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.video {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.aboutSections{
+    padding: 2.5px;
+}
+#shop{
+    text-align: center;
+}
+#shopTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabelCumparaturi{
+    margin-left: auto;
+    margin-right: auto;
+}
